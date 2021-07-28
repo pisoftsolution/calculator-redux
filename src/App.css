@@ -1,0 +1,65 @@
+#root{
+ display: flex;
+ justify-content: center;
+
+}
+
+input{
+  background-color: rgb(189, 204, 189);
+  margin-right: 5px;
+  width: 200px;
+  font-size: 20px;
+}
+button{
+  background-color: rgb(36, 31, 31);
+  height: 30px;
+  color: aliceblue;
+  margin-right: 10px;
+  width: 90px;
+  height: 20px;
+  
+}
+.App{
+  
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+  width: 500px;
+  margin-top: 150px;
+  
+ 
+}
+.box{
+  display: inline-flex;
+  margin-top: 20px;
+
+}
+.inpt{
+  display: inline-grid;
+}
+@media screen and (max-width:376px){
+  .App
+  {
+    width: 80%;
+
+  }
+    input{
+  background-color: rgb(189, 204, 189);
+  margin-right: 5px;
+  width: 150px;
+  height: 15px;
+ 
+    }
+    button
+    {
+      background-color: rgb(36, 31, 31);
+      color: aliceblue;
+      margin-right: 5px;
+      width: 60px;
+      height: 20px;
+      
+    }
+  
+}
